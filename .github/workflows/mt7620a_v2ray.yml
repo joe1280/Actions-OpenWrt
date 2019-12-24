@@ -15,11 +15,11 @@ on:
     branches: 
       - master
     paths:
-      - 'mt7620a_v2ray.config'
+      - 'mt7620-v2ray.config'
 #  schedule:
 #    - cron: 0 8 * * 5
-#  watch:
-#    types: [started]
+  watch:
+    types: [started]
 
 jobs:
   build:
@@ -60,7 +60,7 @@ jobs:
 
     - name: Load custom configuration
       env:
-        CONFIG_FILE: mt7620a_v2ray.config'
+        CONFIG_FILE: mt7620-v2ray.config'
         DIY_SH: 'diy.sh'
       run: |
         [ -e files ] && mv files openwrt/files
