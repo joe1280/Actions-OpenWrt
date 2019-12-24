@@ -15,7 +15,7 @@ on:
     branches: 
       - master
     paths:
-      - 'ar7xx.config'
+      - 'mt7620a.config'
 #  schedule:
 #    - cron: 0 8 * * 5
   watch:
@@ -60,7 +60,7 @@ jobs:
 
     - name: Load custom configuration
       env:
-        CONFIG_FILE: 'ar7xx.config'
+        CONFIG_FILE: 'mt7620a.config'
         DIY_SH: 'diy.sh'
       run: |
         [ -e files ] && mv files openwrt/files
