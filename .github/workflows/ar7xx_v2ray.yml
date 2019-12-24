@@ -18,8 +18,8 @@ on:
       - 'v2-tor2.config'
 #  schedule:
 #    - cron: 0 8 * * 5
-  watch:
-    types: [started]
+#  watch:
+#    types: [started]
 
 jobs:
   build:
