@@ -15,7 +15,7 @@ on:
     branches: 
       - master
     paths:
-      - 'aar7xx_openvpn.config'
+      - 'ar7xx.config'
 #  schedule:
 #    - cron: 0 8 * * 5
 #  watch:
