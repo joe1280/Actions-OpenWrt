@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: ar7xx
+name: mt7620a-k2
 
 on: 
   release:
